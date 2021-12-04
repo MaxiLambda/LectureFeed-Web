@@ -32,7 +32,7 @@ export class AbstractSessionManagementComponent implements IAbstractSessionManag
       let token: string | null = null;
       token = "token" // token muss über den global store bezogen werden.
 
-      if(this.sessionId===null && token !== null){
+      if(this.sessionId === null && token !== null){
         this.navigateToLogin();
         return;
       }
@@ -70,8 +70,5 @@ export class AbstractSessionManagementComponent implements IAbstractSessionManag
   protected displayErrorObjectNotify(err: Error){
     this.displayErrorNotify(err.name);
   }
-
-
-
 
 }

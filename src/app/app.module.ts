@@ -19,7 +19,7 @@ import {DialogModule} from "primeng/dialog";
 import {ClipboardModule} from 'ngx-clipboard';
 import {RippleModule} from "primeng/ripple";
 import {ButtonModule} from "primeng/button";
-import { ShareSessionCodeDialogComponent } from './component/organisms/share-session-code-dialog/share-session-code-dialog.component';
+import {ShareSessionCodeDialogComponent} from './component/organisms/share-session-code-dialog/share-session-code-dialog.component';
 
 @NgModule({
   declarations: [

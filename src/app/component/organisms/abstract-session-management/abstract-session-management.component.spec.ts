@@ -5,7 +5,7 @@ import {HttpClientTestingModule} from "@angular/common/http/testing";
 import {MessageService} from "primeng/api";
 import {ParticipantSessionComponent} from "../../pages/participant/participant-session/paricipant-session.component";
 
-describe('AbtractSessionManagementComponent', () => {
+describe('AbstractSessionManagementComponent', () => {
   let component: AbstractSessionManagementComponent;
   let fixture: ComponentFixture<AbstractSessionManagementComponent>;
 
